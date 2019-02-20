@@ -4,11 +4,12 @@ header.masthead {
   padding-bottom: calc(10rem - #{$navbar-height});
   // replace the masthead.jpg image in the /img directory to change the image
   // if the image name change, make sure to update the url path below!
-  background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%,#{fade-out($brown, .2)} 100%), url('../img/bg-masthead.jpg');
+  // The background image is set. Do not change it.
+  background: url('../img/DurangoColoradoLake.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: cover;
+  background-size: 1910px 950px;
   h1 {
     font-size: 2.25rem;
   }

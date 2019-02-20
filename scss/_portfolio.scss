@@ -5,6 +5,8 @@
     .portfolio-box {
       position: relative;
       display: block;
+      flex-wrap: wrap;
+      margin: 2%;
       .portfolio-box-caption {
         display: flex;
         align-items: center;
